@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import jfxtras.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="289.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <LocalDateTimeTextField fx:id="start" layoutX="37.0" layoutY="30.0" prefHeight="25.0" prefWidth="220.0" />
+      <LocalDateTimeTextField fx:id="end" layoutX="37.0" layoutY="75.0" prefHeight="25.0" prefWidth="220.0" />
+      <TextField fx:id="cours" layoutX="37.0" layoutY="123.0" />
+      <TextField fx:id="prof" layoutX="37.0" layoutY="172.0" />
+      <TextField fx:id="classroom" layoutX="37.0" layoutY="219.0" />
+      <Label layoutX="37.0" layoutY="15.0" text="Debut" />
+      <Label layoutX="37.0" layoutY="61.0" text="Fin" />
+      <Label layoutX="37.0" layoutY="107.0" text="Cours" />
+      <Label fx:id="labSalle" layoutX="37.0" layoutY="205.0" text="Salle" />
+      <Label fx:id="labProf" layoutX="37.0" layoutY="157.0" text="Professeur" />
+      <Button fx:id="save" layoutX="184.0" layoutY="312.0" mnemonicParsing="false" onAction="#saveApt" text="Enregistrer" />
+      <Button fx:id="del" layoutX="87.0" layoutY="312.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="91.0" text="Supprimer" />
+      <TextField fx:id="group" layoutX="37.0" layoutY="269.0" />
+      <Label fx:id="labGroup" layoutX="37.0" layoutY="254.0" text="Groupe" />
+      
+   </children>
+</AnchorPane>

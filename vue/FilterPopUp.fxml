@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="292.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="coursFilterField" layoutX="125.0" layoutY="30.0" />
+      <TextField fx:id="profFilterField" layoutX="125.0" layoutY="86.0" />
+      <TextField fx:id="salleFilterField" layoutX="125.0" layoutY="139.0" />
+      <TextField fx:id="groupFilterField" layoutX="125.0" layoutY="190.0" />
+      <Label layoutX="59.0" layoutY="35.0" text="Cours :" />
+      <Label layoutX="27.0" layoutY="91.0" text="Professeur :" />
+      <Label layoutX="62.0" layoutY="144.0" text="Salle :" />
+      <Label layoutX="48.0" layoutY="195.0" text="Groupe :" />
+      <Button fx:id="filterButton" onAction="#filter" layoutX="239.0" layoutY="252.0" mnemonicParsing="false" text="Filtrer" />
+      <Button fx:id="filterCancel" onAction="#close" layoutX="155.0" layoutY="252.0" mnemonicParsing="false" text="Annuler" />
+   </children>
+</AnchorPane>
